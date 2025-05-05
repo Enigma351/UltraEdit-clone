@@ -1,0 +1,113 @@
+
+@media only screen and (max-width: 1256px){
+  h2{
+    font-size: 1.5rem;
+  }
+
+  .nav-links{
+    text-align: center;
+  }
+  .nav-links i{
+    display: none;
+  }
+  .nav-links ul {
+    gap: 35px;
+  }
+  .nav-links ul li{
+   font-size: 0.7rem;
+  }
+  #language, #search{
+    display: block;
+  }
+  .btn-container{
+    height: 55px;
+  }
+  .btn-container h3 {
+    font-size: 15px;
+    padding-top: 7px;
+  }
+  .aiSection-first{
+    gap: 6px;
+  }
+  .bold-small-text{
+    font-size: 1.2rem;
+  }
+  .list-items ul li{
+    margin-bottom: -8px;
+  }
+  .list-items ul li .img-span {
+    width: 25px;
+    height: 25px;
+    top: 8px;
+  }
+  .list-items ul li .img-span img{
+    max-width: 100%;
+    height: auto;
+  }
+  .h3-text{
+    font-size: 0.9rem;
+    margin-left: 30px;
+  }
+  .downloadfeatures{
+    margin-top: 30px;
+    height: 45px;
+  }
+  .learnmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+  }
+  .usesSection{
+    height: 56vh;
+    margin-top: 10px;
+  }
+  .fileSection{
+    margin-top: 20px;
+    height: 78vh;
+  }
+  .fileSection.container{
+    gap: 7px;
+  }
+  .right-large img{
+    height: 300px;
+  }
+  .left-small h2 {
+    font-size: 1rem;
+    padding: 0;
+  }
+  .left-small ul {
+    margin-top: 58px;
+    font-size: 0.7rem;
+  }
+  .left-small a{
+    display: none;
+  }
+  .left-large{
+    padding-left: 6px;
+    height: 74vh;
+  }
+  .right-large {
+    display: none;
+  }
+  .featuresSection{
+    margin-top: 18px;
+  }
+  .ul2{
+    bottom: 12px;
+  }
+  .ul3{
+    bottom: 59px;
+  }
+  .ul4{
+    bottom: 45px;
+    margin-left: 3px;
+  }
+  .ul5{
+    bottom: 82px;
+  }
+  .email input::placeholder{
+    font-size: 10px;
+  }
+}

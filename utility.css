@@ -1,0 +1,90 @@
+:root {
+  --primary-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Poppins', sans-serif;
+  --normal-color: #0db4ce;
+  --hover-color: #00b6d1;
+  --yellow-section-color: rgb(255, 229, 0);
+}
+.container {
+  max-width: 1800px;
+  padding-inline: var(--padding-inline-section);
+  margin-inline: auto;
+  overflow: hidden;
+}
+.hover-links {
+  transition: 0.2s ease-out;
+}
+.hover-links:hover {
+  opacity: 0.8;
+}
+
+.flex {
+  display: flex;
+}
+.justify-content {
+  justify-content: center;
+}
+.align-items {
+  align-items: center;
+}
+.bold-small-text {
+  font-family: var(--primary-font-family);
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+}
+.large-bold-text {
+  font-family: var(--primary-font-family);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.yellow-text {
+  color: var(--yellow-section-color);
+}
+.blue-btn {
+  width: 45%;
+  height: 65px;
+  background-color: var(--normal-color);
+  border-radius: 5px;
+}
+
+.normal-btn {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+.h3-small {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 33px;
+  color: black;
+  font-family: var(--primary-font-family);
+}
+.medium-p-text{
+  font-size: 1rem;
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  line-height: 22px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.small-p-text{
+  font-size: 12px;
+  line-height: 24px;
+  color: black;
+  font-weight: 300;
+  font-family: var(--secondary-font-family);
+}
+.thin-h3{
+  color: black;
+  font-family: var(--primary-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+}
+.bold{
+  font-weight: 700;
+  font-family: var(--primary-font-family);
+  font-size: 1.5rem;
+}
